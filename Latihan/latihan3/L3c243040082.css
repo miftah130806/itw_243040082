@@ -1,0 +1,12 @@
+body {background-color: aqua ;
+    font-family: Georgia ;}
+h1 {font-family: Comic Sans MS ;
+  font-size: 60px;
+ color: darkblue;}
+ h3 a {color: white;}
+ h3 :hover {color: red;}
+h4 {text-align: right;
+  font-style: italic;}
+.p1 {text-align: center;
+     color: orange;}
+.p2 a:hover {text-align: right; color: white; background-color: blue;}
