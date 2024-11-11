@@ -1,0 +1,137 @@
+/* Resetting beberapa style default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and general font styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fef6f6;
+    color: #f30808;
+  }
+  
+  /* Container for center alignment */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #f9f5f5;
+    color: rgb(178, 86, 86);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main article styles */
+  article {
+    background-color: rgb(11, 11, 11);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(31, 3, 3, 0.1);
+    margin-top: 20px;
+  }
+  
+  article h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  article .meta {
+    font-size: 0.9rem;
+    color: #111010;
+  }
+  
+  article .meta time {
+    font-weight: bold;
+  }
+  
+  article .meta .author {
+    font-weight: bold;
+  }
+  
+  /* Image section */
+  .image-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-section .featured-image {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(165, 5, 5, 0.2);
+  }
+  
+  /* Content section */
+  .content {
+    margin-top: 20px;
+  }
+  
+  .content h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #f30c0c;
+  }
+  
+  .content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #e02020;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    article h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
